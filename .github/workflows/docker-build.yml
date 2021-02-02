@@ -5,7 +5,7 @@ on:
 
 jobs:
   build_and_push:
-    name: Build and Push Docker Image to Docker Hub
+    name: Docker Build
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
