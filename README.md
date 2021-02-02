@@ -1,6 +1,6 @@
 # Time Service API
 
-Time Service API is a REST API to fetch the current time since epoch.
+Time Service API is a simple REST API to fetch the current time since epoch.
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ To run the project, run `poetry run uvicorn app.main.app --reload`
 To test the service is working, you can use curl:
 
 ```
-$ curl -s http://127.0.0.1:8000/api/v1/time/ | jq
+$ curl -s http://127.0.0.1:8000/ | jq
 {
   "message": "Automate all the things!",
   "timestamp": 1612235363
