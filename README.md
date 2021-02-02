@@ -33,10 +33,9 @@
 
 ### Running the project locally
 
-There's a convenience script `run-locally.sh` which will install all project
-dependencies and then run the project. It assumes Python 3.9
+There's a convenience script at the root of the project `run-locally.sh` which will install all project dependencies and then run the project.
 
-To install the project dependencies run `poetry install`.  
+To install the project dependencies manually run `poetry install`.  
 To run the project, run `poetry run uvicorn app.main.app --reload`
 
 ### Running the project locally using Docker
@@ -66,3 +65,5 @@ To view the documentation open a browser at `http://127.0.0.1:8000/docs#/` with 
 ![Swagger](docs/swagger.png "Swagger")
 
 ### Kubernetes deployment
+
+TBD
