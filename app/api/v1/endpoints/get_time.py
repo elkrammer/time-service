@@ -11,3 +11,8 @@ router = APIRouter()
 @router.get("/", response_model=schemas.Time)
 async def get_current_time() -> Any:
     return {"message": "Automate all the things!", "timestamp": get_time()}
+
+
+@router.get("/demo", response_model=schemas.Time)
+async def get_current_time() -> Any:
+    return {"message": "Demo Time!", "timestamp": get_time()}
